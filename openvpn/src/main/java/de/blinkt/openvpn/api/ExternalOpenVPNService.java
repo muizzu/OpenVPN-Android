@@ -25,7 +25,7 @@ import android.os.ParcelFileDescriptor;
 import android.os.RemoteCallbackList;
 import android.os.RemoteException;
 
-import com.wxy.vpn2018.R;
+import xyz.oboloi.openvpn.R;
 
 import java.io.IOException;
 import java.io.StringReader;

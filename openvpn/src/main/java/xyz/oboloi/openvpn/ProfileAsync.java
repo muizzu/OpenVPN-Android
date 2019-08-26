@@ -53,7 +53,6 @@ public class ProfileAsync extends AsyncTask<Void, Void, Boolean> {
     @Override
     protected Boolean doInBackground(Void... voids) {
         try {
-  //          URL url = new URL("https://firebasestorage.googleapis.com/v0/b/bilet-oboloi.appspot.com/o/testclient.ovpn?alt=media&token=a9b788e9-efba-4107-8e14-abbf50d63e19");// TODO
 //            InputStream inputStream = url.openConnection().getInputStream();
             URL url = new URL(ovpnUrl);
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
