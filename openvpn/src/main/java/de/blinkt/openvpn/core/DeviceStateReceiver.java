@@ -13,11 +13,11 @@ import android.net.NetworkInfo;
 import android.net.NetworkInfo.State;
 import android.os.Handler;
 
-import com.wxy.vpn2018.R;
 
 import java.util.LinkedList;
 
 import de.blinkt.openvpn.core.VpnStatus.ByteCountListener;
+import xyz.oboloi.openvpn.R;
 
 import static de.blinkt.openvpn.core.OpenVPNManagement.pauseReason;
 

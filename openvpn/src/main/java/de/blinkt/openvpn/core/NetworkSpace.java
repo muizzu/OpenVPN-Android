@@ -8,9 +8,10 @@ import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import com.wxy.vpn2018.BuildConfig;
-
 import junit.framework.Assert;
+
+import xyz.oboloi.openvpn.BuildConfig;
+
 
 import java.math.BigInteger;
 import java.net.Inet6Address;

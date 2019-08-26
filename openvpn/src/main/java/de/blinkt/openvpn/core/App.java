@@ -12,7 +12,8 @@ import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
 
-import com.wxy.vpn2018.R;
+import xyz.oboloi.openvpn.R;
+
 
 //import com.onesignal.OneSignal;
 //import com.orm.SugarContext;

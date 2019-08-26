@@ -6,7 +6,7 @@ package de.blinkt.openvpn.core;
 
 import android.annotation.SuppressLint;
 
-import com.wxy.vpn2018.R;
+import xyz.oboloi.openvpn.R;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -9,7 +9,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.text.TextUtils;
 
-import com.wxy.vpn2018.R;
+import xyz.oboloi.openvpn.R;
 
 import org.spongycastle.util.io.pem.PemObject;
 import org.spongycastle.util.io.pem.PemReader;

@@ -4,7 +4,7 @@
  */
 package de.blinkt.openvpn.core;
 
-import com.wxy.vpn2018.R;
+import xyz.oboloi.openvpn.R;
 
 import java.net.InetSocketAddress;
 import java.net.MalformedURLException;

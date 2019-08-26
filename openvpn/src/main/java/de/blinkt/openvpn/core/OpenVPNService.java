@@ -37,9 +37,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import com.wxy.vpn2018.BuildConfig;
-import com.wxy.vpn2018.MainActivity;
-import com.wxy.vpn2018.R;
+import xyz.oboloi.openvpn.BuildConfig;
+import xyz.oboloi.openvpn.R;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -55,6 +54,7 @@ import de.blinkt.openvpn.LaunchVPN;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.VpnStatus.ByteCountListener;
 import de.blinkt.openvpn.core.VpnStatus.StateListener;
+import xyz.oboloi.openvpn.StartVPN;
 
 import static de.blinkt.openvpn.core.ConnectionStatus.LEVEL_CONNECTED;
 import static de.blinkt.openvpn.core.ConnectionStatus.LEVEL_WAITING_FOR_USER_INPUT;
@@ -297,8 +297,8 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
     PendingIntent getGraphPendingIntent() {
         // Let the configure Button show the Log
         // Editor : I'm not sure about this but
-        // TODO : Check what the fuck is this.
-        Class activityClass = MainActivity.class;
+        // TODO : Check Later.
+        Class activityClass = StartVPN.class;
         if (mNotificationActivityClass != null) {
             activityClass = mNotificationActivityClass;
         }

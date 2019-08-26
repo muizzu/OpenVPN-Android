@@ -12,7 +12,6 @@ import android.content.pm.Signature;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.wxy.vpn2018.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.UnsupportedEncodingException;
@@ -27,6 +26,8 @@ import java.util.Arrays;
 import java.util.FormatFlagsConversionMismatchException;
 import java.util.Locale;
 import java.util.UnknownFormatConversionException;
+
+import xyz.oboloi.openvpn.R;
 
 /**
  * Created by arne on 24.04.16.

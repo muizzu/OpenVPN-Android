@@ -8,7 +8,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 
-import com.wxy.vpn2018.R;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -22,6 +21,8 @@ import java.io.UnsupportedEncodingException;
 import java.nio.BufferOverflowException;
 import java.nio.ByteBuffer;
 import java.util.Locale;
+
+import xyz.oboloi.openvpn.R;
 
 /**
  * Created by arne on 23.01.16.

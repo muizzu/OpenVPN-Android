@@ -29,7 +29,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
-import com.wxy.vpn2018.R;
+import xyz.oboloi.openvpn.R;
 
 import java.io.IOException;
 

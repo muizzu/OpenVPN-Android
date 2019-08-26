@@ -14,8 +14,8 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import com.wxy.vpn2018.BuildConfig;
-import com.wxy.vpn2018.R;
+import xyz.oboloi.openvpn.BuildConfig;
+import xyz.oboloi.openvpn.R;
 
 import junit.framework.Assert;
 
