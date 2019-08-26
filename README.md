@@ -1,2 +1,2 @@
 # OpenVPN-Android
-OpenVPN client for android
+OpenVPN library for android
