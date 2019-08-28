@@ -46,7 +46,7 @@ public class App extends /*com.orm.SugarApp*/ Application {
     private void createNotificationChannels() {
         NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         // Background message
-        CharSequence name = getString(R.string.channel_name_background);
+        String name = getString(R.string.channel_name_background);
         NotificationChannel mChannel = new NotificationChannel(OpenVPNService.NOTIFICATION_CHANNEL_BG_ID, name, NotificationManager.IMPORTANCE_MIN);
         mChannel.setDescription(getString(R.string.channel_description_background));
         mChannel.enableLights(false);

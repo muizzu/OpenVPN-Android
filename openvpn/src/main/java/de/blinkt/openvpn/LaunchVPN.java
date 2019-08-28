@@ -24,6 +24,7 @@ import android.os.RemoteException;
 import android.text.InputType;
 import android.text.TextUtils;
 import android.text.method.PasswordTransformationMethod;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -101,6 +102,7 @@ public class LaunchVPN extends Activity {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         setContentView(R.layout.launchvpn);
+       // Log.e("test","VPN start");
         startVpnFromIntent();
     }
 

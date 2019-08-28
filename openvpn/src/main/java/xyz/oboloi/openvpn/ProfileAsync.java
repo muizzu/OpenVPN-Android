@@ -32,7 +32,7 @@ public class ProfileAsync extends AsyncTask<Void, Void, Boolean> {
     private OnProfileLoadListener onProfileLoadListener;
     private String ovpnUrl;
 
-    ProfileAsync(Context context, OnProfileLoadListener onProfileLoadListener, String ovpnUrl) {
+    public ProfileAsync(Context context, OnProfileLoadListener onProfileLoadListener, String ovpnUrl) {
         this.context = new WeakReference<>(context);
         this.onProfileLoadListener = onProfileLoadListener;
         this.ovpnUrl = ovpnUrl;
