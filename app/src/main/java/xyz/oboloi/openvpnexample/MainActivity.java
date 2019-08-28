@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnConnect = findViewById(R.id.start);
         oboloiVPN = new OboloiVPN(MainActivity.this, getApplicationContext());
-        oboloiVPN.create();
+        oboloiVPN.launchVPN("https://downloads.nordcdn.com/configs/files/ovpn_legacy/servers/al10.nordvpn.com.udp1194.ovpn");
 
 
         oboloiVPN.setOnVPNStatusChangeListener(new OnVPNStatusChangeListener() {

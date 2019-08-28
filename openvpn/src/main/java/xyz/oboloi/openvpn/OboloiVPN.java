@@ -72,9 +72,7 @@ public class OboloiVPN implements VpnStatus.ByteCountListener, VpnStatus.StateLi
     }
 
 
-    public void create() {
-
-        String url = "https://firebasestorage.googleapis.com/v0/b/bilet-oboloi.appspot.com/o/muizzu.ovpn?alt=media&token=395b8c0b-ffa9-491b-8fcc-d45286023d40";
+    public void launchVPN(String url) {
 
 
         if (!App.isStart) {
