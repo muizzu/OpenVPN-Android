@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnConnect = findViewById(R.id.start);
         oboloiVPN = new OboloiVPN(MainActivity.this, getApplicationContext());
-        oboloiVPN.launchVPN("https://downloads.nordcdn.com/configs/files/ovpn_legacy/servers/al10.nordvpn.com.udp1194.ovpn");
+        //oboloiVPN.launchVPN("https://downloads.nordcdn.com/configs/files/ovpn_legacy/servers/al10.nordvpn.com.udp1194.ovpn");
+        oboloiVPN.launchVPN("https://firebasestorage.googleapis.com/v0/b/bilet-oboloi.appspot.com/o/testclient.ovpn?alt=media&token=a9b788e9-efba-4107-8e14-abbf50d63e19");
 
 
         oboloiVPN.setOnVPNStatusChangeListener(new OnVPNStatusChangeListener() {
@@ -60,11 +61,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStop() {
-        oboloiVPN.onStop();
-        super.onStop();
-    }
+//    @Override
+//    protected void onStop() {
+//        oboloiVPN.onStop();
+//        super.onStop();
+//    }
 
     @Override
     protected void onResume() {

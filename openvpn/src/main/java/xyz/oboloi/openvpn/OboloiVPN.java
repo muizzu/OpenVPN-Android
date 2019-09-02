@@ -20,6 +20,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.LifecycleObserver;
 
 import java.util.Objects;
 
@@ -199,6 +200,7 @@ public class OboloiVPN implements VpnStatus.ByteCountListener, VpnStatus.StateLi
         if (mService != null) {
             try {
                 mService.stopVPN(false);
+                onStop();
             } catch (RemoteException e) {
                 VpnStatus.logException(e);
             }
